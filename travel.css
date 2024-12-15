@@ -1,0 +1,123 @@
+/* Styles.css */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #f0a500;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url(https://www.google.com/imgres?q=travel%20website%20cover%20page&imgurl=https%3A%2F%2Fcdn.motocms.com%2Fsrc%2F868x580%2F94300%2F94385-original-1200.jpg&imgrefurl=https%3A%2F%2Fwww.motocms.com%2Fwebsite-templates%2Fmotocms-3-template%2Ftravel-agent-site%2F&docid=ihDNnvqvqr8WnM&tbnid=7k1Fa-zlT48JTM&vet=12ahUKEwjJrru_lqSKAxVNS2cHHZKbMtQQM3oECGcQAA..i&w=868&h=580&hcb=2&ved=2ahUKEwjJrru_lqSKAxVNS2cHHZKbMtQQM3oECGcQAA) no-repeat center center/cover;
+    color: #fff;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .hero button {
+    background: #f0a500;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .hero button:hover {
+    background: #e58e00;
+  }
+  
+  #packages {
+    padding: 50px 20px;
+    text-align: center;
+    background: #f8f8f8;
+  }
+  
+  #packages h2 {
+    margin-bottom: 30px;
+    font-size: 32px;
+  }
+  
+  .destination {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .destination img {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .destination h3 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .destination p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+  }
+  
+  footer ul li a:hover {
+    color: #f0a500;
+  }
+  
